@@ -1,0 +1,62 @@
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Cache and temporary files
+.Spotlight-V100
+.Trashes
+*.swp
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+.pytest_cache/
+
+# ---- Editors / IDE ----
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+
+# ---- Logs ----
+*.log
+
+# ---- Other ----
+# Local settings, secrets
+.env
+.env.*
+*.local
+
+# Byte-compiled / optimized / DLL files
+*.pyo
+*.pyd
+*.dll
+*.so
+*.dylib
